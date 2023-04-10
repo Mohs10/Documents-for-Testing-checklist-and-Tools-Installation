@@ -1,6 +1,13 @@
 This folder conatins files on
+
 -How to download & install MySQL WorkBench?
+
 -How to do Account setup?
 
 -In SQL overview file following topics are covered:
 What is SQL,Why SQL, SQL commands, RDBMS, Field, column, null value, All SQL syntax.
+
+-In Database testing overview file following topics are covered:
+What is meant by Database testing, Benefits, Objectives of Database Testing, Database Testing Attributes, Why Is Database Testing Important?,
+What should be tested, Database Testing Process, Misconceptions related to Database Testing, steps to perform Database Testing,
+How automation can help in Database Testing, Database testing tools
