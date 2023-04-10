@@ -1,1 +1,16 @@
-This folder contains documents related to Jenkins installation, plugins etc..
+This folder contains documents related to
+1.Jenkins installation
+2.List of jenkins plugins 
+3.Jenkins Overview File contains:
+-What is Jenkins
+-What is Continuous Integration(CI)
+-What is Continuous Delivery (CD)?
+-Difference between CI and CD
+-Development without CI vs. Development with CI
+-How Continuous integration work?
+-How does Jenkins work?
+-Why use Continuous Integration with Jenkins?
+-Before Jenkins v After Jenkins
+-Jenkins Plugins
+
+
