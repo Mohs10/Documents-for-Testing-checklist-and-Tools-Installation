@@ -1,0 +1,63 @@
+Api security testing 
+
+Tools required:
+
+1.postman with owasp zap tool
+2.Soapui 
+
+
+
+
+Checklist 
+
+1.Authentication and Authorization Testing:
+
+Test authentication mechanisms (ex: API keys, tokens, OAuth) to ensure they work correctly.
+Verify that users can only access resources they are authorized to access.
+Verify that the API enforces proper authentication for all endpoints.
+
+2.Input Validation and Injection Testing:
+
+Test for common injection vulnerabilities, such as SQL injection, XML injection, and JSON injection.
+Ensure that all input is properly validated and sanitized to prevent malicious input.(In your API, proper validation means checking the data you receive to make sure it's in the right format and doesn't contain any harmful commands or code. Sanitization means cleaning the data to remove any potentially dangerous parts.)
+
+3. Data Protection Testing:
+
+Check if sensitive data is encrypted in transit (HTTPS) and at rest.
+Verify that data exposure is limited to authorized users.
+Verify that sensitive data, such as passwords or API keys, are not exposed in responses.
+
+4. Session Management Testing:
+
+Test for session-related vulnerabilities, such as session fixation and session hijacking.
+Verify that session management is secure and sessions expire properly.
+
+5. Error Handling and Information Disclosure Testing:
+
+Check how errors and exceptions are handled to ensure sensitive information is not disclosed.
+Test for predictable error messages that could reveal system information.
+
+6. API Rate Limiting and Throttling:
+
+Verify if the API has rate limiting and throttling mechanisms to prevent abuse.
+Test the effectiveness of these mechanisms.
+
+7. Security Headers Testing:
+
+Check for the presence and correctness of security headers like Content Security Policy (CSP), X-Content-Type-Options, X-Frame-Options, and X-XSS-Protection.
+
+8.File Upload Testing:
+
+If the API allows file uploads, test for proper validation and handling to prevent file-based attacks.
+
+
+
+
+
+
+
+
+
+
+
+
